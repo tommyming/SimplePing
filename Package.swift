@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SimplePing",
-    platforms: [.macOS(.v11), .iOS(.v14)],
+    platforms: [.macOS(.v11), .iOS(.v13)],
     products: [
         .library(
             name: "SimplePing",
